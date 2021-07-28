@@ -35,6 +35,9 @@ common_words = [
     "is",
     "it",
     "if",
-    "or"
+    "or",
+    "can",
+    ">>",
+    ">"
     
 ]
