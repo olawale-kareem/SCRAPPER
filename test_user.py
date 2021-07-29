@@ -6,7 +6,7 @@ from services import user
 class TestUser(unittest.TestCase):
 
     def test_toggle_off(self):
-        action= user.User(self)
+        action = user.User(self)
         result = action.toggle_off()
         self.assertEqual(result, 'Thanks for analyzing! Come back again!')
         

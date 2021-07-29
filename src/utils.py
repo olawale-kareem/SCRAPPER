@@ -31,6 +31,7 @@ common_words = [
     "you",
     ">>>",
     "your",
+     "#",
     "was",
     "is",
     "it",
@@ -38,6 +39,10 @@ common_words = [
     "or",
     "can",
     ">>",
-    ">"
+    ">",
+    "can",
+    "A",
+    "B"
+
     
 ]

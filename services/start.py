@@ -1,3 +1,5 @@
+import time
+
 from user import User
 from url import Url
 from soup import Soup
@@ -22,6 +24,7 @@ def operation_choice():
             refined_word = WordRefine(site_body).processed_word()
             keys, values , top_word = WordRefine(site_body).most_common_words(site_body,refined_word,10)
             print(f'The top word is: {top_word}')
+            time.sleep(5)
             plotter = Plot(keys, values)
             plotter.plot_bar_chart()
             plotter.plot_pie_chart()
@@ -31,6 +34,7 @@ def operation_choice():
    
     
 
-
+# if __name__ == "__main__":
+#     operation_choice()
 
 

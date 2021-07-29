@@ -9,14 +9,17 @@ class Plot:
 
     def plot_bar_chart(self):
         p.figure(figsize = (10, 5))
-        p.bar(self.keys, self.values, color ='maroon',width = 0.4)
+        p.bar(self.keys, self.values, color ='blue',width = 0.4)
         p.show()
 
 
     def plot_pie_chart(self):
         p.figure(figsize =(10, 5))
-        p.pie(self.values, labels = self.keys, autopct='%.0f%%') 
+        p.pie(self.values, labels = self.keys, autopct='%.0f%%')
         p.show()
+
+
+
 
 
 
